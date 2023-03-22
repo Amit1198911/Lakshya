@@ -1,0 +1,2 @@
+write a java program to compute sum of digit in an integer
+using function?

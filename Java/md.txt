@@ -1,0 +1,21 @@
+-distroyer is a also a member function of a classit is used to destroy a object automaticaly when object get out of scope 
+2.its name is same as class name 
+3.it has no argument 
+3.its has no return type 
+4.it must be declyer and define in public section only
+ 
+   #syntax
+ ~classname()
+{
+
+------
+------
+
+}
+example 
+class abc
+{
+int x,y;
+pub
+
+ 
