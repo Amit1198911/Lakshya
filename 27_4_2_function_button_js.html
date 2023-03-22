@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+    <script type="text/javascript">
+    function div(x,y){
+        var x,y;
+        z=x/y;
+        alert("Division of "+x+" & "+y+" is "+z);
+
+    }
+    function Add(x,y){
+        var x,y,z;
+        z=x+y;
+        z=parseInt(z);
+        alert("Additin of "+x+" & "+y+" is "+z);
+
+    }
+    function sub(x,y){
+        var x,y;
+        z=x-y;
+        alert("Subtraction of "+x+" & "+y+" is "+z);
+
+    }
+    function mul(x,y){
+        var x,y;
+        z=x*y;
+        alert("Multiply of "+x+" & "+y+" is "+z);
+
+    }
+        
+      
+    </script>
+</head>
+<body>
+    <br>
+    <br>
+    <table>
+        <tr>
+          <td>
+            <button onclick="Add('5','7');">
+                Add
+            </button>
+          </td>
+          <td>
+            <button onclick="sub('5','7');">
+               Sub
+            </button>
+          </td>
+        </tr>
+        <tr>
+            <td>
+              <button onclick="mul('5','7');">
+                  mul
+              </button>
+            </td>
+            <td>
+              <button onclick="div('5','7');">
+                  div
+              </button>
+            </td>
+          </tr>
+    </table>
+    
+</body>
+</html>

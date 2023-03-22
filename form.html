@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>
+        body{
+            background-image: url("Images/hotelroom.jpg");
+            background-repeat: no-repeat;
+
+        }
+        form{
+            padding-top: 30px;
+        }
+        input{
+            width:180px;
+            padding-top: 8px;
+        }
+        1{
+            margin: top 150px;
+        }
+        .submit{
+            background-image: linear-gradient(to right, rgb(95, 210, 193), rgb(63, 88, 176),rgb(87, 42, 139),rgb(223, 32, 32));
+            color:aliceblue;
+            padding-bottom: 8px;
+            border-radius: 18px;
+        }
+        .submit:hover{
+            font-size:15px;
+            padding-top: 5px;
+            background-image: linear-gradient(to left, rgb(223, 32, 32)), rgb(87, 42, 139), rgb(63, 88, 176), rgb(95, 210, 193));
+
+        }
+    </style>
+</head>
+<body>
+    <form align="center" class="animate__animated  animate__infinite animate__flip animate__delay-5s">
+     <div class="1">
+        <h2>Student Registration</h2>
+        <h3>Registration</h3>
+        <input type="text" name="text" placeholder="First Name" required>
+        <br>
+        <br>
+        <input  type="email" name="email" placeholder="Email Id" required>
+        <br>
+        <br>
+        <input type="tel" name="tel" placeholder="Phone Number" required>
+        <br>
+        <br>
+        <input type="date" name="date" placeholder="Date" required>
+        <br>
+        <br>
+        <input type="number" name="number" placeholder="Adhar Card" required>
+        <br>
+        <br>
+        <input type="file" placeholder="Choose file">
+        <br>
+        <p><h5>Please add the aadhar card in pdf format</h5></p>
+        <input type="submit" value="Register" width="100" class="submit">
+     </div>
+
+        
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="/Images/icon_2.ico">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>
+        body{
+            background-image: url("Images/bg_2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .logo{
+            border-radius:50px;
+            width: 80px;
+            height: 80px;
+        }
+        .bg-warning my-2{
+            text-decoration: none;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        h5{
+            color:rgb(7, 244, 31);
+            font-weight: bolder;
+        }
+        #b1:hover{
+            transition:0.4s;
+        }
+    </style>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <div>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid .container-sm">
+              <a class="navbar-brand" href="#"><img src = "Images/l1.png" class="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <button class="form-control mx-2 btn btn-outline-dark">Login</button>
+                  <button class="form-control btn btn-outline-primary">Register</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+    </div>
+    <div class="bg-warning my-2">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item mx-2"><a href="#">Home</a></li>
+              <li class="breadcrumb-item mx-2"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active mx-2" aria-current="page">Data</li>
+            </ol>
+          </nav>
+    </div>
+
+    <div>
+        <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Images/img_1.jpg" class="d-block w-90" alt="...">
+                <div>
+                    <button type="button" class="btn btn-primary">
+                        Notifications <span class="badge text-bg-secondary">4</span>
+                      </button>
+                  </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="left">
+                        <div class="card-body" style="float:left">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                          <div class="card-body" style="float:left">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                          <div class="card-body">
+                              <h5 class="card-title" style="float:left">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                    </div>
+                  </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="animate__animated animate__flip">First slide label</h5>
+                    <button class="btn btn-success mx-2">Login</button>
+                    <button class="btn btn-warning">Know More</button>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Images/img_2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="animate__animated animate__swing">First slide label</h5>
+                    <button class="btn btn-outline-success mx-2">Login</button>
+                    <button class="btn btn-outline-info">Know More</button>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Images/img_3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="animate__animated animate__rotateIn">First slide label</h5>
+                    <button class="btn btn-outline-success mx-2" id="b1">Login</button>
+                    <button class="btn btn-outline-info">Know More</button>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+    </div>
+  </body>
+</html>

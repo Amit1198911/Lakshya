@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function demo(){
+         var x = document.getElementById("fn").value;
+         var y = document.getElementById("ln").value;
+         var z=x+" "+y;
+         alert(z);
+        }
+    </script>
+</head>
+<body>
+    First Name : <input type="text" name="fn" id="fn">
+    <br>
+    <br>
+    last Name : <input type="text" name="ln" id="ln">
+    <br>
+    <br>
+    <button onclick="demo();">
+        Full Name
+    </button>
+</body>
+</html>

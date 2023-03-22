@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .legend{
+            font-weight: bold;
+        }
+        .div1{
+            background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+            border: 2px solid green;
+            border-radius: 15px;
+            padding-left: 15px;
+            padding-top: 15px;
+
+        }
+        .div2{
+            background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+            border: 2px solid rgb(91, 207, 91);
+            border-radius: 15px;
+            padding-bottom: 50px;
+            padding-left: 60px;
+
+        }
+        #fn{
+            border-radius: 15px;
+            height:30px;
+        }
+        .button{
+            background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+            border-radius: 20px;
+            width:120px;
+            height: 40px;
+            color: black
+        }
+        .button:hover{
+            border-radius: 20px;
+            width:150px;
+            height: 50px;
+            background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            transition: 0.4s;
+        }
+
+
+    </style>
+    <script type="text/javascript">
+        function demo(){
+         var x = document.getElementById("fn").value;
+         x=parseInt(x);
+         if(x>=18){
+            alert("Eligible to Vote");
+         }
+         else{
+            alert("Not eligible to Vote");
+         }
+        }
+    </script>
+</head>
+<body>
+  <fieldset>
+    <legend class="legend">Vote</legend>
+    <div class="div1" align="center">
+    Enter Your Age : <input type="text" name="fn" id="fn">
+      <br>
+      <br>
+    </div>
+    <br>
+    <div class="div2" align="center">
+        <p id="res">
+        </p>
+        <br>
+        <br>
+        <button onclick="demo();" class="button">
+            Click me..!
+        </button>
+    </div>
+</fieldset>
+</body>
+</html>
